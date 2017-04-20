@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="姓名:"
+                android:textSize="24sp" />
+
+            <com.devilwwj.loginandregister.views.CleanEditText
+                android:id="@+id/cet_employee_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="身份证号:"
+                android:textSize="24sp" />
+
+            <com.devilwwj.loginandregister.views.CleanEditText
+                android:id="@+id/cet_employee_cardNum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="性别:"
+                android:textSize="24sp" />
+
+            <com.devilwwj.loginandregister.views.CleanEditText
+                android:id="@+id/cet_employee_sex"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="学历:"
+                android:textSize="24sp" />
+
+            <com.devilwwj.loginandregister.views.CleanEditText
+                android:id="@+id/cet_employee_education"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="手机号:"
+                android:textSize="24sp" />
+
+            <com.devilwwj.loginandregister.views.CleanEditText
+                android:id="@+id/cet_employee_telephone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="微信:"
+                android:textSize="24sp" />
+
+            <com.devilwwj.loginandregister.views.CleanEditText
+                android:id="@+id/cet_employee_wetchat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="QQ:"
+                android:textSize="24sp" />
+
+            <com.devilwwj.loginandregister.views.CleanEditText
+                android:id="@+id/cet_employee_qq"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_work_experience"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="工作经历"
+                android:textSize="24sp" />
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:scaleType="center"
+                android:src="@drawable/arrow1"/>
+
+        </LinearLayout>
+
+        <!--工作经历-->
+        <ViewStub
+            android:id="@+id/vs_work_experience"
+            android:inflatedId="@+id/ll_WorkExperience_VsContent"
+            android:layout="@layout/activity_personal_work_experience"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!--下属员工-->
+        <ViewStub
+            android:id="@+id/vs_staff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inflatedId="@+id/ll_staff__VsContent"
+            android:layout="@layout/activity_personal_staff"/>
+
+    </LinearLayout>
+
+</ScrollView>

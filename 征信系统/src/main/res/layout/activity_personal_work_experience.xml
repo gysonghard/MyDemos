@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--工作经历的布局-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_company1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_company1_time"
+            android:text="2000年-2008年"
+            android:textSize="24sp"
+            android:layout_margin="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_company1_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="公司1:aaaa"
+            android:textSize="24sp"
+            android:layout_margin="8dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#5000"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_company2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_company2_time"
+            android:text="2008年-2015年"
+            android:textSize="24sp"
+            android:layout_margin="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_company2_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="公司2:bbbb"
+            android:textSize="24sp"
+            android:layout_margin="8dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#5000"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_company3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_company3_time"
+            android:text="2015年-至今"
+            android:textSize="24sp"
+            android:layout_margin="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_company3_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="公司3:ccccc"
+            android:textSize="24sp"
+            android:layout_margin="8dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#5000"/>
+
+    </LinearLayout>
+
+</LinearLayout>

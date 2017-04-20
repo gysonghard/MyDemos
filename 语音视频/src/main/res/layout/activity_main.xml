@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="拍照" />
+
+    <Button
+        android:id="@+id/btn_gallary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="选取相册照片" />
+
+    <Button
+        android:id="@+id/btn_media"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="播放音频" />
+
+    <Button
+        android:id="@+id/btn_video"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="播放视频" />
+
+</LinearLayout>

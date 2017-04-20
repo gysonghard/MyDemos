@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="textNomal">#7000</color>
+    <color name="textPressed">#60f0</color>
+
+    <color name="topTextNomal">#fff</color>
+    <color name="topTextSelected">#fff0</color>
+</resources>

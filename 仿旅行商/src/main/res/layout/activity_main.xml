@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sgy.lvxingshang.MainActivity">
+    <LinearLayout
+        android:id="@+id/fl_main"
+        android:layout_width="match_parent"
+        android:layout_height="655dp"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/rg_main"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:checkedButton="@+id/rb_play"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <RadioButton
+            android:id="@+id/rb_lv"
+            style="@style/bottom_RadioButton"
+            android:text="旅行商" />
+
+        <RadioButton
+            android:id="@+id/rb_contact"
+            style="@style/bottom_RadioButton"
+            android:text="通讯录" />
+
+        <RadioButton
+            android:id="@+id/rb_play"
+            style="@style/bottom_RadioButton"
+            android:text="玩转" />
+
+        <RadioButton
+            android:id="@+id/rb_search"
+            style="@style/bottom_RadioButton"
+            android:text="探索" />
+
+        <RadioButton
+            android:id="@+id/rb_mine"
+            style="@style/bottom_RadioButton"
+            android:text="我的" />
+
+
+    </RadioGroup>
+</RelativeLayout>
